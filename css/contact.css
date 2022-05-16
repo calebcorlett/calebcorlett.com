@@ -196,18 +196,18 @@ a.poolboy:hover{
 
 
 
-  @media (max-width: 800px){
-    html{}
+@media (max-width: 500px){
+  html{}
 
-      .portrait{
-        opacity: 100%;
-        z-index: 99;
+    .portrait{
+      opacity: 90%;
+      z-index: 99;
 
-      }
+    }
 
 .turn{
 text-align: center;
 margin-top: 50%;
 }
 
-    }
+  }
