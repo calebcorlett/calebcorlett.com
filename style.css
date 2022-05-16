@@ -145,7 +145,7 @@ a.headerlink:active{
 
 .portrait{
   opacity: 0;
-  background-color: #212121;
+  background-color: #1f1f1f;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -160,7 +160,7 @@ a.headerlink:active{
     html{}
 
       .portrait{
-        opacity: 100%;
+        opacity: 90%;
         z-index: 99;
 
       }
