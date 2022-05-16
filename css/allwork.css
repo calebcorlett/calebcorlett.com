@@ -1,0 +1,215 @@
+html{
+  /* background-image: url(images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+  background-color: #1e1e1e;
+  text-align: left;
+  line-height: 150%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.mv1{
+  /* background-color: green; */
+position: relative;
+}
+
+.hovertitle{
+  position: absolute;
+  bottom: 0;
+  /* background-color: orangered; */
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  /* width: 100%; */
+  transition: .2s ease;
+  opacity: 0;
+  font-size: 2rem;
+
+}
+
+.mv1:hover .hovertitle{
+  opacity: 1;
+}
+
+.mv1video{
+  height: 380px;
+}
+
+img.crop{
+  background-size: contain;
+}
+
+body{
+  overflow-x: hidden;
+  padding: 2rem;
+  margin: 0;
+}
+
+p{
+  color: white;
+  font-size: 1.2rem;
+}
+
+li{
+  color: white;
+}
+
+ul{
+font-size: 1.2rem;
+list-style-type: none;
+margin: 0;
+align-content: left;
+padding-left: 0;
+}
+
+.yellow{
+  color: yellow;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.spacer{
+  padding: 2rem;
+}
+
+.spacer1{
+  padding: 1rem;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+
+}
+
+.col2{
+  /* background-color: orangered; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.mv1{
+  width: 49%;
+}
+
+img{
+  width: 100%;
+  position: relative;
+}
+
+hr{
+  color: white;
+}
+
+/* .titlehover{
+  position: absolute;
+  z-index: 1;
+  color: yellow;
+  opacity: 0;
+
+}
+
+.titlehover:hover{
+  opacity: 1;
+  color: aqua;
+  z-index: 1;
+} */
+
+.mv2{
+ width: 49%;
+ /* background-color: blue; */
+}
+
+.name{
+  /* background-color: pink; */
+  width: 30%;
+}
+
+.workmenu{
+  /* background-color: blue; */
+  width: 30%;
+}
+
+.infomenu{
+  width: 30%;
+  /* background-color:red; */
+}
+
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+a.credits{
+  font-size: .8rem;
+  /* text-decoration: underline; */
+}
+
+a.headerlink:hover{
+  color: yellow;
+}
+
+a.headerlink:active{
+  color: yellow;
+}
+
+
+@font-face {
+    font-family: 'apfel_grotezkfett';
+    src: url(fonts/'apfelgrotezk-fett-webfont.woff2') format('woff2'),
+         url(fonts/'apfelgrotezk-fett-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apfel_grotezkregular';
+    src: url(fonts/'apfelgrotezk-regular-webfont.woff2') format('woff2'),
+         url(fonts/'apfelgrotezk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.portrait{
+  opacity: 0;
+  background-color: #212121;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -99;
+  top:0;
+  left: 0;
+}
+
+
+
+  @media (max-width: 800px){
+    html{}
+
+      .portrait{
+        opacity: 100%;
+        z-index: 99;
+
+      }
+
+.turn{
+text-align: center;
+margin-top: 50%;
+}
+
+    }
