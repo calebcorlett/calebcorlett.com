@@ -211,3 +211,17 @@ margin-top: 50%;
 }
 
   }
+
+
+  @media (max-width: 700px){
+    html{}
+
+      .infotext{
+        width: 50%;
+        position: absolute;
+        padding-bottom: 10%;
+        /* margin-left: -20px; */
+        /* background-color: blue; */
+      }
+
+    }
