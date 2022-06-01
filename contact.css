@@ -1,0 +1,227 @@
+html{
+  background-image: url(../images/bts_1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #1e1e1e;
+  text-align: left;
+  line-height: 150%;
+font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+body{
+  overflow-x: hidden;
+  padding: 2rem;
+  margin: 0;
+}
+
+p{
+  color: white;
+  font-size: 1.2rem;
+  /* line-height: 200%; */
+}
+
+li{
+  color: white;
+}
+
+.yellow{
+  color: yellow;
+}
+
+.social{
+  width: 30%;
+  /* background-color: red; */
+  padding-top: 1rem;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.icon{
+  /* width: 25%; */
+  padding-right: 2rem;
+}
+
+ul{
+font-size: 1.2rem;
+list-style-type: none;
+margin: 0;
+align-content: left;
+padding-left: 0;
+}
+
+header{
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
+  /* padding: 2rem; */
+  /* background-color: white; */
+
+  /* flex: auto; */
+/* position: fixed; */
+/* top: 2rem; */
+/* right: 4rem; */
+
+}
+
+
+
+.name{
+  /* background-color: pink; */
+  width: 30%;
+}
+
+.workmenu{
+  /* background-color: blue; */
+  width: 30%;
+}
+
+.infomenu{
+  width: 30%;
+  /* background-color:red; */
+}
+
+
+a{
+  color: inherit;
+  text-decoration: none;
+  /* font-size: 1em; */
+  /* transition: 1s all; */
+}
+
+
+a.headerlink:hover{
+  color: yellow;
+}
+
+a.headerlink:active{
+  color: yellow;
+}
+
+.showreel{
+  position: fixed;
+  bottom: .5rem;
+  /* height: auto; */
+  /* background-color: pink; */
+}
+
+.infotext{
+  width: 30%;
+  /* background-color: blue; */
+}
+
+.blank{
+  width: 30%;
+  opacity: 0;
+  /* background-color: red; */
+}
+
+.blank2{
+  width:30%;
+  /* background-color: greenyellow; */
+}
+
+.image{
+  width: 30%;
+}
+
+.pool{
+  padding-left: 20%;
+  margin-top: -40%;
+}
+
+.benee{
+  /* padding-left: 20%; */
+  margin-top: -40%;
+  width: 100%;
+
+}
+
+a.poolboy{
+  opacity: 0;
+  transition: .5s all;
+}
+
+a.poolboy:hover{
+  opacity: 1;
+  transition: .5s all;
+}
+
+
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18%;
+  /* position: absolute;
+  bottom: 20%; */
+}
+
+@font-face {
+    font-family: 'apfel_grotezkfett';
+    src: url(fonts/'apfelgrotezk-fett-webfont.woff2') format('woff2'),
+         url(fonts/'apfelgrotezk-fett-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apfel_grotezkregular';
+    src: url(fonts/'apfelgrotezk-regular-webfont.woff2') format('woff2'),
+         url(fonts/'apfelgrotezk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+.portrait{
+  opacity: 0;
+  background-color: #212121;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -99;
+  top:0;
+  left: 0;
+}
+
+
+
+@media (max-width: 500px){
+  html{}
+
+    .portrait{
+      opacity: 90%;
+      z-index: 99;
+
+    }
+
+.turn{
+text-align: center;
+margin-top: 50%;
+}
+
+  }
+
+
+  @media (max-width: 700px){
+    html{}
+
+      .infotext{
+        width: 50%;
+        position: absolute;
+        padding-bottom: 10%;
+        /* margin-left: -20px; */
+        /* background-color: blue; */
+      }
+
+    }
